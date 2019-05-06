@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Front.master.cs" Inherits="Term_Project.Front" %>
+
+<!DOCTYPE html>
+<!-- Name: Chandra K. Rai -->
+<!-- File Name: Front.Master.aspx -->
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, intitail-scale=1" />
+    <title>NCCS</title>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <!-- CSS Section -->     
+
+    <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day" rel="stylesheet">
+    <link href="Content/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/css/bootstrap-grid.css" rel="stylesheet" />
+    <link href="Content/css/bootstrap-grid.min.css" rel="stylesheet" />
+    <link href="Content/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="Content/customApp.css" rel="stylesheet" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+         <!-- Header Section -->      
+        
+
+
+         <!-- Body Section -->
+        <div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+
+         <!-- Footer Section -->
+        <div class="footer">
+            &copy; NCCS 2019 - All Rights Reserved.
+        </div>
+
+    </form>
+
+    <!-- JaveScript Section -->
+    <script src="https://code.jquery.com/jquery-2.1.0.min.js" ></script>
+    <script src="Scripts/Application.js" ></script>
+</body>
+</html>
